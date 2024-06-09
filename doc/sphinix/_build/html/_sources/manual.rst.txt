@@ -7,7 +7,7 @@ Welcome to figure_read's documentation!
 =======================================
 This module read the tagged figure and export the data as csv file. The axis is tagged using pure green color. The data point is tagged using pure red color. The figure can be tagged using Paint(Windows) and KolourPaint(Linux). The opencv-python package is required to execute the program.
 
-To install the software, please add the following line to ~/.bashrc and source ~/.bashrc again.
+The program can be only installed in a Linux platform. To install the software, please add the following line to ~/.bashrc and source ~/.bashrc again.
 
 .. code-block:: console
 	
@@ -19,16 +19,4 @@ To execute the program, please save the tagged figure as figure.png. Execute the
 	
 	figure_read x1 x2 y1 y2
 
-.. toctree::
-   data
-   figure_read
-   
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+There're several examples in the example directory. To execute the example, please change to the desired example directory, and enter :code:`source ~/Allrun.sh` in the terminal.
